@@ -1,0 +1,23 @@
+{
+  "name": "@example/framework-react",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "tinacms build && tinacms dev -c 'astro dev'",
+    "build": "tinacms build && astro build"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^1.1.0",
+    "@astrojs/tailwind": "^1.0.0",
+    "@tinacms/cli": "^0.61.6",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.5",
+    "astro": "^1.1.1"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5",
+    "tinacms": "^0.69.2"
+  }
+}

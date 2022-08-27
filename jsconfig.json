@@ -1,0 +1,12 @@
+{
+ "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "paths": {
+      ".tina/*": ["./.tina/*"],
+      "comp/*": ["./src/comp/*"],
+      "pages/*": ["./src/pages/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

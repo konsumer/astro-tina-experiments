@@ -1,0 +1,19 @@
+<head>
+  <meta charset="utf-8">
+  <title>{Astro?.props?.frontmatter?.title || 'My Site'}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <nav>
+    <ul class='inline flex justify-end bg-blue-500 text-white p-4'>
+      <li class='mr-2 pr-2 border-r-2'><a href="/">Home</a></li>
+      <li class='mr-2 pr-2 border-r-2'><a href="/admin">Admin</a></li>
+      <li class='inline'><a href="/about">About</a></li>
+    </ul>
+  </nav>
+
+  <main class='p-4'>
+    <slot></slot>
+  </main>
+</body>
